@@ -26,7 +26,7 @@ completion = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": prompt;
+            "content": prompt,
         },
         {"role": "system", "content": conteudo},
         {"role": "user", "content": questao},
