@@ -5,7 +5,8 @@ api_key = ""
 client = OpenAI(api_key=api_key)
 
 questao = input("""Como posso lhe ajudar?
-                """)
+
+""")
 
 chroma_client = chromadb.Client()
 chroma_client = chromadb.PersistentClient(path="db")
@@ -35,4 +36,4 @@ completion = client.chat.completions.create(
 
 answer = completion.choices[0].message.content
 
-print(answer)
+print("\n\n",answer,"\n\n")
