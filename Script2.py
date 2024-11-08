@@ -1,8 +1,6 @@
 import chromadb
-from openai import OpenAI
+from litellm import completion
 
-api_key = "Coloque sua chave API"
-client = OpenAI(api_key=api_key)
 
 while True:
     questao = input("Como posso lhe ajudar?\nDigite 'sair' para encerrar.\n\n")
@@ -27,15 +25,17 @@ while True:
     Depois de responder a pergunta, diga: Fico feliz por você ter usado nossos serviços, se houver mais dúvidas, sinta-se à vontade para perguntar.
     """
 
-    completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+    response = completion(
+        model="ollama/llama3.1:8b", 
         messages=[
-            {"role": "system", "content": prompt},
-            {"role": "system", "content": conteudo},
-            {"role": "user", "content": questao},
-        ],
+                {"role": "system", "content": prompt},
+                {"role": "system", "content": conteudo},
+                {"role": "user", "content": questao},
+            ], 
+        api_base="http://localhost:11434"
     )
 
-    answer = completion.choices[0].message.content
+
+    answer = response['choices'][0]['message']['content']
 
     print("\n\n",answer,"\n\n")
