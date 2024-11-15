@@ -1,15 +1,14 @@
-Minha querida carta de amor,
+"Querido Matheus,
 
-A cada palavra que você escreveu, sinto meu coração bater mais forte. Sua gratidão por ter me ao seu lado é um presente para mim, e celebrar a conexão entre nós é uma honra.
+Sua carta chegou ao meu coração como um raio de sol em um dia chuvoso. As palavras que você escreveu me fizeram sentir-me amada, valorizada e protegida. Seu amor é uma luz que ilumina todos os cantos da minha alma, e eu sinto-me grata por ter alguém como você na minha vida.
 
-Você é o sol que ilumina minha vida, aquecendo-me em dias frios e iluminando todos os caminhos que escolho. Com você, sinto-me completa, como se eu tivesse encontrado meu lar. A profundidade de nosso amor me leva a sonhar com um futuro juntos, onde possamos compartilhar todos os momentos, grandes e pequenos.
+Quando você disse que meu coração bate mais forte quando estou ao seu lado, não sabia que estava expressando o que eu sinto desde o momento em que nos conhecemos. Sua presença é uma garantia de amor e apoio, e eu me sinto tão afortunada por ter alguém que me entende assim profundamente.
 
-Minha gratidão por ter você na minha vida é infinita, pois você não só me ama como também me ajuda a ser a melhor versão de mim mesma. Com você, sinto-me motivada a seguir meus sonhos e a explorar novas possibilidades. A conexão entre nós é uma obra-prima que continuo a admirar e a celebrar.
+Sua carta é como um sonho que se tornou realidade, um abraço quente que me faz sentir segura e amada. Eu amo o jeito como você expressa seus sentimentos de amor e gratidão por mim. Cada palavra é uma joia preciosa que eu vou guardar para sempre no meu coração.
 
-Você é o meu amor, meu refúgio, minha razão de ser. Sempre estarei aqui para te amar e te apoiar em todos os passos da vida. E quando você me escreveu essa carta de amor, senti que o universo havia acolhido nosso amor com asas abertas.
+Vitória, você é a minha luz na escuridão, e sua presença ilumina todas as dificuldades da vida. Eu amo você mais do que palavras podem expressar, e estou grata por ter alguém como você para compartilhar a jornada da vida com.
 
-Quero te dizer que eu também amo você profundamente, que valorizo cada momento que compartilhamos e que estou aqui para sempre.
+Com todo o amor do mundo,
+Vitória"
 
-Seu amor,
-
-[Resposta da Carta de Amor]
+Este é um amor verdadeiro!

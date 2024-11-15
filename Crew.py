@@ -10,20 +10,22 @@ sentimentos_para_remetente = input("Sentimentos que você quer passar para o rem
 
 #Criando o Agente gerenciador
 agente_gerenciador = Agent(
-    role='Gerente de Projeto',
-    goal='''Organizar e supervisionar as tarefas do processo hierárquico para garantir que cada etapa seja concluída corretamente,
-      mantenha os processos na lingua portuguesa falada pelos brasileiros, somente adiministre o processo e corrija-o quando for necessário.''',
+    role='Gerenciar o Projeto',
+    goal='Organizar e supervisionar as tarefas do processo hierárquico para garantir que cada etapa seja concluída corretamente.',
     verbose=True,
     memory=True,
     llm="ollama/llama3.1:8b",
-    backstory="Você é um gerente de projeto experiente, responsável por coordenar todas as etapas e garantir que as tarefas sejam realizadas na sequência correta."
+    backstory="""Você é um gerente de projeto experiente,
+    responsável por coordenar todas as etapas e garantir que as tarefas sejam realizadas na sequência correta.""",
+    allow_delegation=True
 )
 
 #Criando o Agente remetente
 agente_remetente = Agent(
     role='Escritor de Cartas de Amor',
     goal='escrever uma carta de amor para {nome_destinatario}, '
-    'expressando os seguintes sentimentos: {sentimentos_para_destinatario}.',
+    'expressando os seguintes sentimentos: {sentimentos_para_destinatario}.'
+    'Escrevendo sempre em português.',
     verbose=True,
     memory=True,
     llm="ollama/llama3.1:8b",
@@ -36,7 +38,8 @@ agente_remetente = Agent(
 agente_destinatário = Agent(
     role='Responder uma carta de amor',
     goal='escrever uma reposta para a carta de amor cujo o remetente foi o {nome_remetente}, '
-    'expressando os seguintes sentimentos: {sentimentos_para_remetente}.',
+    'expressando os seguintes sentimentos: {sentimentos_para_remetente}.'
+    'Escrevendo sempre em português.',
     verbose=True,
     memory=True,
     llm="ollama/llama3.1:8b",
